@@ -8,9 +8,19 @@
 </head>
 <body>
     <?php 
-       $frase=" sono Giorgio e sto facendo l'esercizio di boolean"
+       $frase="sono Giorgio e sto facendo l'esercizio di boolean";
+       $array = explode(' ',$frase);
+       $_GET('$')
     ?>
     <?php ?>
     <h1>Ciao <?php echo $frase?></h1>
+    <h3>Lunghezza: <?php strlen("sono Giorgio e sto facendo l esercizio di boolean");?></h3>
+    <p> 
+        <?php 
+          echo "<pre>";
+             var_dump($array);
+          echo "<pre>";
+        ?>
+    </p>
 </body>
 </html>
