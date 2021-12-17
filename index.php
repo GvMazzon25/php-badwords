@@ -11,7 +11,7 @@
        $frase="sono Giorgio e sto facendo l'esercizio di boolean";
        $array = explode(' ',$frase);
        $_GET = ('word');
-       $frase2 = str_replace("esercizio","bip",$frase);
+       $frase2 = str_replace($_GET,"bip",$frase);
 
     ?>
     <?php ?>
@@ -24,10 +24,10 @@
         ?>
     </p>
     <h1>Censored</h1>
-    <h2>Ciao, 
-        <?php 
-           echo $frase2
-        ?>
+    <h2> 
+        Ciao,<?php 
+            echo $frase2;
+            ?>
     </h2>
 </body>
 </html>
