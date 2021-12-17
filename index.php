@@ -10,8 +10,8 @@
     <?php 
        $frase="sono Giorgio e sto facendo l'esercizio di boolean";
        $array = explode(' ',$frase);
-       $_GET = ('word');
-       $frase2 = str_replace($_GET,"bip",$frase);
+       $censored = $_GET['word'];
+       $frase2 = str_replace($censored,"bip",$frase);
 
     ?>
     <?php ?>
