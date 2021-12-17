@@ -10,11 +10,11 @@
     <?php 
        $frase="sono Giorgio e sto facendo l'esercizio di boolean";
        $array = explode(' ',$frase);
-       $_GET('$')
+       $_GET = ('name');
+
     ?>
     <?php ?>
     <h1>Ciao <?php echo $frase?></h1>
-    <h3>Lunghezza: <?php strlen("sono Giorgio e sto facendo l esercizio di boolean");?></h3>
     <p> 
         <?php 
           echo "<pre>";
@@ -22,5 +22,11 @@
           echo "<pre>";
         ?>
     </p>
+    <h1>Censored</h1>
+    <h2>Ciao, 
+        <?php 
+           
+        ?>
+    </h2>
 </body>
 </html>
